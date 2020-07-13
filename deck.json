@@ -696,8 +696,8 @@
             "fields": [
                 "Github删除已提交文件及历史记录",
                 "git",
-                "git filter-branch --force --index-filter 'git rm --cached --ignore-unmatch FILE_PATH' --prune-empty --tag-name-filter cat -- --all<br>git push origin master --force<br>rm -rf .git/refs/original/<br>git reflog expire --expire=now --all<br>git gc --prune=now<br>git gc --aggressive --prune=now",
-                "",
+                "git filter-branch --force --index-filter 'git rm --cached --ignore-unmatch &lt;FILE_PATH&gt;' --prune-empty --tag-name-filter cat -- --all<br>git push origin master --force<br>rm -rf .git/refs/original/<br>git reflog expire --expire=now --all<br>git gc --prune=now<br>git gc --aggressive --prune=now",
+                "&lt;FILE_PATH&gt; 请务必改成你要删除的文件/文件夹",
                 "",
                 ""
             ],
