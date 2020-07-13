@@ -1,0 +1,710 @@
+{
+    "__type__": "Deck",
+    "children": [],
+    "crowdanki_uuid": "2b08e22f-c517-11ea-8bac-9cb6d0fa71cc",
+    "deck_config_uuid": "4aaca019-51c5-11e9-b6bd-9a65c08601f5",
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig",
+            "anotherRetreat": false,
+            "autoAgain": 20,
+            "autoAlert": 10,
+            "autoAnswer": 15,
+            "autoplay": false,
+            "crowdanki_uuid": "4aaca019-51c5-11e9-b6bd-9a65c08601f5",
+            "dyn": false,
+            "lapse": {
+                "delays": [
+                    2.0,
+                    10.0
+                ],
+                "leechAction": 0,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 30,
+            "name": "工学",
+            "new": {
+                "bury": true,
+                "delays": [
+                    1.0,
+                    10.0
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    4,
+                    7
+                ],
+                "order": 1,
+                "perDay": 999,
+                "separate": true
+            },
+            "replayq": false,
+            "rev": {
+                "bury": true,
+                "ease4": 1.3,
+                "fuzz": 0.05,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 36500,
+                "minSpace": 1,
+                "perDay": 999
+            },
+            "timer": 0
+        }
+    ],
+    "desc": "",
+    "dyn": 0,
+    "extendNew": 10,
+    "extendRev": 50,
+    "media_files": [
+        "_bg.png",
+        "_times.ttf"
+    ],
+    "mid": 1485179307096,
+    "name": "ALL::Learnig::手册::Git",
+    "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "css": "/* - http://leaflyer.lofter.com - */\n\n\n/* ----------调用字体---------- */\n\n@font-face { font-family: yh; src: url('_FZYHJW.ttf'); }\n@font-face { font-family: times; src: url('_times.ttf'); }\n\n\n/* ----------各种样式---------- */\n\nbody { background-color: #fff; color: black; }\n.card {\n\tfont: 20px/30px yh;\n\tbackground-color:#fff;\n\t#background-image: url(_bg.png);\n\t#background-size:100%;\n}\n\n.h1 { font: 22px/22px yh; padding: 0.3em 0em 0.3em 0.5em; }\n.h2 { font: 20px/30px yh; padding: 0.3em 0em 0.3em 0.5em; }\n\n.xleft { border-left: 3px solid #ec6c4f; }\n.yleft { border-left: 3px solid #338eca; }\n.zleft { border-left: 3px solid #4c991b; }\n\n.xcolor { color: #ec6c4f; }\n.ycolor { color: #338eca; }\n.zcolor { color: #4c991b; }\n\n.hint { color: #333; }\n\n\n/* ---------- 其他调整 ---------- */\n\na { color: #666; }\nimg { max-width: 100%; vertical-align: middle; }\n\t.chrome img { max-width: 100%; vertical-align: middle; }\nul,ol { margin-top: 0em; }\nli { margin-left: -0.5em; }\ni { font-family: palatino; padding: 0 3px 0 0; }\nu { text-decoration: none; background-color: #ffff75; border-bottom: 2px solid #ec6c4f; }\nhr { height: 1px; width: 100%; display: block; border: 0px solid #fff; vertical-align: middle; margin:5px 0px 10px 0px; background-color: #ccc;}\n#time { font-family: yh; float: right; } \n\n\n/* ----------夜间模式（Android）---------- */\n\nbody.night_mode { background-color: #232323; color:#727272; }\n.night_mode .card { background-color: #232323;  color:#727272; }\n\n.night_mode .xleft { border-left: 3px solid #a0a0a0; }\n.night_mode .yleft { border-left: 3px solid #a0a0a0; }\n.night_mode .zleft { border-left: 3px solid #a0a0a0; }\n\n.night_mode .xcolor { #font-weight: bold; color:#a0a0a0; }\n.night_mode .ycolor { #font-weight: bold; color:#a0a0a0; }\n.night_mode .zcolor { #font-weight: bold; color:#a0a0a0; }\n\n.night_mode .hint { color: #727272; }\n.night_mode u { color: #a0a0a0; background-color: #505050; border-bottom: 2px solid #5f5f5f; }\n.night_mode img { filter: alpha(opacity=30); opacity:0.3;  filter:invert;}\n.night_mode audio { filter: alpha(opacity=30); opacity:0.3; }\n.night_mode hr { background-color: #484848; }\n\n\n/* ----------动画效果---------- \n\n.slide { position: relative; -webkit-animation: slide 1s 0s; -webkit-animation-fill-mode: forwards; }\n\n@-webkit-keyframes slide {\n\t0%\t{ opacity: 0  ; top: 100px; }\n\t50%\t{ opacity: 0.8; top: -10px; }\n\t100%\t{ opacity: 1.0; top: -3px; }\n}\n*/",
+            "flds": [
+                {
+                    "font": "微软雅黑 Light",
+                    "media": [],
+                    "name": "问题",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "《》",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": true
+                },
+                {
+                    "font": "宋体",
+                    "media": [],
+                    "name": "答案",
+                    "ord": 2,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "宋体",
+                    "media": [],
+                    "name": "评论",
+                    "ord": 3,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "举例",
+                    "ord": 4,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "宋体",
+                    "media": [],
+                    "name": "拓展",
+                    "ord": 5,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\usepackage{extarrows}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": true,
+            "name": "问答(Anki高考)",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0,
+                        1
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [
+                ""
+            ],
+            "tmpls": [
+                {
+                    "afmt": "<!-- 更多模板请访问 http://leaflyer.lofter.com -->\n\n{{FrontSide}}\n\n{{#答案}}\n\t<div class=\"h2 xleft slide\"><hr>{{答案}}</div>\n{{/答案}}\n\n{{#评论}}\n<br><div class=\"slide\">\n\t<div class=\"h1 ycolor yleft\">\n\t\t评论\n\t</div>\n\t<div class=\"h2  yleft\">{{hint:评论}}</div></div>\n{{/评论}}\n\n{{#举例}}\n<br><div class=\"slide\">\n\t<div class=\"h1 xcolor xleft\">\n\t\t举例\n\t</div>\n\t<div class=\"h2  xleft\">{{hint:举例}}</div></div>\n{{/举例}}\n\n{{#拓展}}\n<br><div class=\"slide\">\n\t<div class=\"h1 zcolor zleft\">\n\t\t拓展\n\t</div>\n\t<div class=\"h2 zleft\">{{hint:拓展}}</div></div>\n{{/拓展}}\n<br>\n<br>\n<div style='font-family: Arial; font-size: 12px;float:left;color:\t#DCDCDC'>欢迎访问<a href=\"https://zhuanlan.zhihu.com/ankigaokao\">Anki高考</a>获取更多支持</div>",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "name": "问答题-Basic",
+                    "ord": 0,
+                    "qfmt": "<!-- 更多模板请访问 http://leaflyer.lofter.com -->\n\n<div class=\"h1 xcolor xleft\">\n\t\t{{^《》}}问题{{/《》}}\n\t\t{{#《》}}{{《》}}{{/《》}}\n</div>\n\n\t<div class=\"h2 xleft\"><div style='font-family: Arial; font-size: 12px;float:left;color:\t#DCDCDC'>{{hint:Tags}}</div><br/>{{问题}}</div>"
+                }
+            ],
+            "type": 0,
+            "vers": []
+        }
+    ],
+    "notes": [
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "查看分支",
+                "git",
+                "git branch",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "DHcqq,lNgI",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "创建分支",
+                "git",
+                "git branch &lt;name&gt;",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "CQ%GC<!(}2",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "切换分支",
+                "git",
+                "git checkout &lt;branchname&gt;",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "goPJ_7taH[",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "创建+切换分支",
+                "git",
+                "git checkout -b &lt;name&gt;",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "xJFJ`wU+6n",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "合并某分支到当前分支",
+                "git",
+                "git merge &lt;name&gt;",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "q;t1Vm{r7(",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "将当前目录变成Git可以管理的仓库",
+                "git",
+                "git init",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "pLU%nydasa",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "将文件添加到仓库",
+                "git",
+                "git add &lt;filename&gt;",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "n=Q!O6Z$3[",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "将文件提交到仓库",
+                "git",
+                "git commit -m \"&lt;message&gt;\"",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "tOB2@AoEG=",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "查看仓库当前状态（哪些文件被修改过了？）",
+                "git",
+                "git status",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "jVv+y@6XR<",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "查看具体修改内容",
+                "git",
+                "git diff",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "oFF:UbB-B4",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "查看提交历史（穿梭过去）",
+                "git",
+                "git log",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "G]z<=Y*B8Z",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "查看命令历史（重返未来）",
+                "git",
+                "git reflog",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "DF!@k39f?3",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "回到历史版本",
+                "git",
+                "git reset --hard commit_id",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "A8.qQ0/RR=",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "当你改乱了工作区某个文件的内容，想直接丢弃工作区的修改时",
+                "git",
+                "git checkout -- file",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "Ck<Dtt7xjo",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "当你不但改乱了工作区某个文件的内容，还添加到了暂存区时，想丢弃修改",
+                "git",
+                "git reset HEAD &lt;file&gt;<br><div>git checkout -- file<br></div>",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "hj=NLzZ3`%",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "从版本库中删除文件",
+                "git",
+                "git rm &lt;filename&gt;<br><div>git commit -m \"&lt;message&gt;\"</div>",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "MHRP@kzHxJ",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "链接github上自己的远程库",
+                "git",
+                "git remote&nbsp;add origin git@github.com:&lt;username&gt;/&lt;repositoryname&gt;.git",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "dn.3Lru9G7",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "将本地库推送到远程master分支",
+                "git",
+                "git push (-u) origin master<div>括号内的参数第一次推送的时候要加，可以关联本地分支和远程分支</div>",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "iaur?lb~}]",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "从远程克隆一个库",
+                "git",
+                "git clone git@github.com:&lt;path&gt;/&lt;repository&gt;.git",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "h37.11qGi%",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "查看远程库信息",
+                "git",
+                "git remote -v",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "Nbetr)Vc/@",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "从本地推送分支",
+                "git",
+                "git push origin &lt;branch-name&gt;<div>注意，这里的branch-name是远程库的branch-name</div>",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "g`LWik=mjC",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "在本地创建和远程分支对应的分支",
+                "git",
+                "git checkout -b &lt;branch-name&gt; origin/&lt;branch-name&gt;<div>本地和远程分支的名称最好一样</div>",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "KVA;s?1V6^",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "建立本地分支和远程分支的关联",
+                "git",
+                "git branch --set-upstream &lt;branch-name&gt; origin/&lt;branch-name&gt;",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "ivw2LSU0kE",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "从远程抓取分支",
+                "git",
+                "git pull",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "kNrfk<vQrJ",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "用图表的方式显示git提交的历史记录",
+                "git",
+                "git log --graph --pretty=oneline --abbrev-commit",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "QRG]w,K_)~",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "把本地未push的分叉提交历史整理成直线",
+                "git",
+                "<div>git rebase</div>其目的是使得我们在查看历史提交的变化时更容易，因为分叉的提交需要三方对比",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "QcDUF}]Sfx",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "给最新提交的commit打标签",
+                "git",
+                "git tag &lt;name&gt;",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "A(?hJwmJMZ",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "给过去的某个commit打标签",
+                "git",
+                "git tag &lt;name&gt; &lt;commit-id&gt;",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "NKDNZ61&Rn",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "查看标签",
+                "git",
+                "git tag",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "hYW:d0~7P,",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "删除标签",
+                "git",
+                "git tag -d &lt;name&gt;",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "zn$N(wOfzI",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "推送标签到远程",
+                "git",
+                "git push origin --tags",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "va?NY~Q;:.",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "取消跟踪已经 track 的文件",
+                "",
+                "git rm --cached &lt;filename&gt;<div>在 .gitignore 中加入 &lt;filename&gt;<br><div>git commit -m \"untrack &lt;filename&gt;\"</div></div>",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "dy/4a/@5m{",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                ".git 文件夹太大用什么命令清理？",
+                "",
+                "<b>git</b> gc --prune=now",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "jKvf/*+{2H",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Github删除已提交文件及历史记录",
+                "git",
+                "git filter-branch --force --index-filter 'git rm --cached --ignore-unmatch FILE_PATH' --prune-empty --tag-name-filter cat -- --all<br>git push origin master --force<br>rm -rf .git/refs/original/<br>git reflog expire --expire=now --all<br>git gc --prune=now<br>git gc --aggressive --prune=now",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "MZN-T$Ss<s",
+            "note_model_uuid": "08f3400c-375c-11e9-94ce-beec426c7dda",
+            "tags": []
+        }
+    ]
+}
